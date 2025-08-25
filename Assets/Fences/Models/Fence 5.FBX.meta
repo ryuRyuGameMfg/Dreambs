@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 57cdd92294a875a4e8f151def57a43b8
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: arch24_055_00
+  - first:
+      1: 100002
+    second: arch24_055_00 1
+  - first:
+      1: 100004
+    second: arch24_055_00 2
+  - first:
+      1: 100006
+    second: arch24_055_00 3
+  - first:
+      1: 100008
+    second: arch24_055_00 4
+  - first:
+      1: 100010
+    second: arch24_056_00
+  - first:
+      1: 100012
+    second: arch24_056_00 1
+  - first:
+      1: 100014
+    second: arch24_056_00 2
+  - first:
+      1: 100016
+    second: arch24_056_00 3
+  - first:
+      1: 100018
+    second: arch24_056_00 4
+  - first:
+      1: 100020
+    second: arch24_057_00
+  - first:
+      1: 100022
+    second: arch24_057_00 1
+  - first:
+      1: 100024
+    second: arch24_057_00 2
+  - first:
+      1: 100026
+    second: arch24_057_00 3
+  - first:
+      1: 100028
+    second: arch24_057_00 4
+  - first:
+      1: 100030
+    second: arch24_059_00
+  - first:
+      1: 100032
+    second: arch24_059_00 1
+  - first:
+      1: 100034
+    second: arch24_059_00 2
+  - first:
+      1: 100036
+    second: arch24_059_00 3
+  - first:
+      1: 100038
+    second: arch24_059_00 4
+  - first:
+      1: 100040
+    second: arch24_060_17
+  - first:
+      1: 100042
+    second: arch24_060_17 1
+  - first:
+      1: 100044
+    second: arch24_060_17 2
+  - first:
+      1: 100046
+    second: arch24_060_17 3
+  - first:
+      1: 100048
+    second: arch24_060_17 4
+  - first:
+      1: 100050
+    second: arch24_062_00
+  - first:
+      1: 100052
+    second: arch24_062_00 1
+  - first:
+      1: 100054
+    second: arch24_062_00 2
+  - first:
+      1: 100056
+    second: arch24_062_00 3
+  - first:
+      1: 100058
+    second: arch24_062_00 4
+  - first:
+      1: 100060
+    second: arch24_062_01
+  - first:
+      1: 100062
+    second: arch24_062_01 1
+  - first:
+      1: 100064
+    second: arch24_062_01 2
+  - first:
+      1: 100066
+    second: arch24_062_01 3
+  - first:
+      1: 100068
+    second: arch24_062_01 4
+  - first:
+      1: 100070
+    second: arch24_063_05
+  - first:
+      1: 100072
+    second: arch24_063_05 1
+  - first:
+      1: 100074
+    second: arch24_063_05 2
+  - first:
+      1: 100076
+    second: arch24_063_05 3
+  - first:
+      1: 100078
+    second: arch24_063_05 4
+  - first:
+      1: 100080
+    second: B70FSB05
+  - first:
+      1: 100082
+    second: B70FSB06
+  - first:
+      1: 100084
+    second: column 1
+  - first:
+      1: 100086
+    second: column 2
+  - first:
+      1: 100088
+    second: detail_225
+  - first:
+      1: 100090
+    second: //RootNode
+  - first:
+      1: 100092
+    second: fence 5
+  - first:
+      1: 100094
+    second: Group01
+  - first:
+      1: 100096
+    second: Group01 1
+  - first:
+      1: 100098
+    second: Group015
+  - first:
+      1: 100100
+    second: Group11
+  - first:
+      1: 100102
+    second: Group12
+  - first:
+      1: 100104
+    second: Group13
+  - first:
+      1: 100106
+    second: Group14
+  - first:
+      1: 100108
+    second: Particle View 01
+  - first:
+      1: 100110
+    second: Particle View 01 1
+  - first:
+      1: 100112
+    second: Particle View 01 2
+  - first:
+      1: 100114
+    second: Particle View 01 3
+  - first:
+      1: 100116
+    second: Particle View 01 4
+  - first:
+      1: 100118
+    second: Particle View 01 5
+  - first:
+      1: 100120
+    second: Particle View 01 6
+  - first:
+      1: 100122
+    second: Particle View 01 7
+  - first:
+      1: 100124
+    second: VRayLight012
+  - first:
+      1: 100126
+    second: VRayLight02
+  - first:
+      1: 100128
+    second: "\u0434\u043E\u0441\u043A\u0430"
+  - first:
+      1: 100130
+    second: "\u043C\u0438\u043A\u0440\u043E\u0432\u043E\u043B\u043D\u043E\u0432\u043A\u0430"
+  - first:
+      1: 100132
+    second: "\u0447\u0430\u0439\u043D\u0438\u043A"
+  - first:
+      1: 100134
+    second: "\u0447\u0430\u0448\u043A\u0438"
+  - first:
+      4: 400000
+    second: arch24_055_00
+  - first:
+      4: 400002
+    second: arch24_055_00 1
+  - first:
+      4: 400004
+    second: arch24_055_00 2
+  - first:
+      4: 400006
+    second: arch24_055_00 3
+  - first:
+      4: 400008
+    second: arch24_055_00 4
+  - first:
+      4: 400010
+    second: arch24_056_00
+  - first:
+      4: 400012
+    second: arch24_056_00 1
+  - first:
+      4: 400014
+    second: arch24_056_00 2
+  - first:
+      4: 400016
+    second: arch24_056_00 3
+  - first:
+      4: 400018
+    second: arch24_056_00 4
+  - first:
+      4: 400020
+    second: arch24_057_00
+  - first:
+      4: 400022
+    second: arch24_057_00 1
+  - first:
+      4: 400024
+    second: arch24_057_00 2
+  - first:
+      4: 400026
+    second: arch24_057_00 3
+  - first:
+      4: 400028
+    second: arch24_057_00 4
+  - first:
+      4: 400030
+    second: arch24_059_00
+  - first:
+      4: 400032
+    second: arch24_059_00 1
+  - first:
+      4: 400034
+    second: arch24_059_00 2
+  - first:
+      4: 400036
+    second: arch24_059_00 3
+  - first:
+      4: 400038
+    second: arch24_059_00 4
+  - first:
+      4: 400040
+    second: arch24_060_17
+  - first:
+      4: 400042
+    second: arch24_060_17 1
+  - first:
+      4: 400044
+    second: arch24_060_17 2
+  - first:
+      4: 400046
+    second: arch24_060_17 3
+  - first:
+      4: 400048
+    second: arch24_060_17 4
+  - first:
+      4: 400050
+    second: arch24_062_00
+  - first:
+      4: 400052
+    second: arch24_062_00 1
+  - first:
+      4: 400054
+    second: arch24_062_00 2
+  - first:
+      4: 400056
+    second: arch24_062_00 3
+  - first:
+      4: 400058
+    second: arch24_062_00 4
+  - first:
+      4: 400060
+    second: arch24_062_01
+  - first:
+      4: 400062
+    second: arch24_062_01 1
+  - first:
+      4: 400064
+    second: arch24_062_01 2
+  - first:
+      4: 400066
+    second: arch24_062_01 3
+  - first:
+      4: 400068
+    second: arch24_062_01 4
+  - first:
+      4: 400070
+    second: arch24_063_05
+  - first:
+      4: 400072
+    second: arch24_063_05 1
+  - first:
+      4: 400074
+    second: arch24_063_05 2
+  - first:
+      4: 400076
+    second: arch24_063_05 3
+  - first:
+      4: 400078
+    second: arch24_063_05 4
+  - first:
+      4: 400080
+    second: B70FSB05
+  - first:
+      4: 400082
+    second: B70FSB06
+  - first:
+      4: 400084
+    second: column 1
+  - first:
+      4: 400086
+    second: column 2
+  - first:
+      4: 400088
+    second: detail_225
+  - first:
+      4: 400090
+    second: //RootNode
+  - first:
+      4: 400092
+    second: fence 5
+  - first:
+      4: 400094
+    second: Group01
+  - first:
+      4: 400096
+    second: Group01 1
+  - first:
+      4: 400098
+    second: Group015
+  - first:
+      4: 400100
+    second: Group11
+  - first:
+      4: 400102
+    second: Group12
+  - first:
+      4: 400104
+    second: Group13
+  - first:
+      4: 400106
+    second: Group14
+  - first:
+      4: 400108
+    second: Particle View 01
+  - first:
+      4: 400110
+    second: Particle View 01 1
+  - first:
+      4: 400112
+    second: Particle View 01 2
+  - first:
+      4: 400114
+    second: Particle View 01 3
+  - first:
+      4: 400116
+    second: Particle View 01 4
+  - first:
+      4: 400118
+    second: Particle View 01 5
+  - first:
+      4: 400120
+    second: Particle View 01 6
+  - first:
+      4: 400122
+    second: Particle View 01 7
+  - first:
+      4: 400124
+    second: VRayLight012
+  - first:
+      4: 400126
+    second: VRayLight02
+  - first:
+      4: 400128
+    second: "\u0434\u043E\u0441\u043A\u0430"
+  - first:
+      4: 400130
+    second: "\u043C\u0438\u043A\u0440\u043E\u0432\u043E\u043B\u043D\u043E\u0432\u043A\u0430"
+  - first:
+      4: 400132
+    second: "\u0447\u0430\u0439\u043D\u0438\u043A"
+  - first:
+      4: 400134
+    second: "\u0447\u0430\u0448\u043A\u0438"
+  - first:
+      23: 2300000
+    second: column 1
+  - first:
+      23: 2300002
+    second: column 2
+  - first:
+      23: 2300004
+    second: fence 5
+  - first:
+      33: 3300000
+    second: column 1
+  - first:
+      33: 3300002
+    second: column 2
+  - first:
+      33: 3300004
+    second: fence 5
+  - first:
+      43: 4300000
+    second: fence 5
+  - first:
+      43: 4300002
+    second: column 1
+  - first:
+      43: 4300004
+    second: column 2
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 1
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
