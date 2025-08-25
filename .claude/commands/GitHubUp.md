@@ -15,6 +15,9 @@ git commit -m "[カテゴリ] 変更内容 - $(date +%Y-%m-%d) (動作確認状�
 # 3. 現在のブランチにプッシュ
 git push origin $(git branch --show-current)
 
+# プッシュ完了通知
+~/.claude/hooks/notification.sh "notification" "GitHubへのプッシュが完了しました"
+
 # 4. 動作確認済みの場合のみ、mainブランチにマージ
 # ※ (動作確認済み) のステータスの変更のみ実行可能
 git checkout main
@@ -68,6 +71,9 @@ git commit -m "[add] 新機能の実装 - $(date +%Y-%m-%d) (未テスト)"
 
 # 現在のブランチにプッシュ
 git push origin $(git branch --show-current)
+
+# プッシュ完了通知
+~/.claude/hooks/notification.sh "notification" "GitHubへのプッシュが完了しました"
 ```
 
 ### 2. バグ修正時の手順
@@ -81,6 +87,9 @@ git commit -m "[fix] バグの説明 - $(date +%Y-%m-%d) (未テスト)"
 
 # 現在のブランチにプッシュ
 git push origin $(git branch --show-current)
+
+# プッシュ完了通知
+~/.claude/hooks/notification.sh "notification" "GitHubへのプッシュが完了しました"
 ```
 
 ### 3. 動作確認後のmainマージ手順
@@ -97,6 +106,9 @@ git push origin $CURRENT_BRANCH --force-with-lease
 git checkout main
 git merge $CURRENT_BRANCH
 git push origin main
+
+# mainブランチへのマージ完了通知
+~/.claude/hooks/notification.sh "notification" "mainブランチへのマージが完了しました"
 
 # 元のブランチに戻る
 git checkout $CURRENT_BRANCH
