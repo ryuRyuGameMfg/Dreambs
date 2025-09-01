@@ -29418,7 +29418,7 @@ MonoBehaviour:
       target: 2
       key: Timer03
     item: {fileID: 0}
-  delayTimeSeconds: 5
+  delayTimeSeconds: 20
   triggers:
   - target: 4
     specifiedTargetItem: {fileID: 0}
@@ -29487,7 +29487,7 @@ MonoBehaviour:
       target: 2
       key: Timer02
     item: {fileID: 0}
-  delayTimeSeconds: 5
+  delayTimeSeconds: 20
   triggers:
   - target: 4
     specifiedTargetItem: {fileID: 0}
@@ -29556,7 +29556,7 @@ MonoBehaviour:
       target: 2
       key: Timer01
     item: {fileID: 0}
-  delayTimeSeconds: 5
+  delayTimeSeconds: 20
   triggers:
   - target: 4
     specifiedTargetItem: {fileID: 0}
@@ -29664,7 +29664,7 @@ MonoBehaviour:
       target: 2
       key: Timer04
     item: {fileID: 0}
-  delayTimeSeconds: 5
+  delayTimeSeconds: 20
   triggers:
   - target: 4
     specifiedTargetItem: {fileID: 0}
