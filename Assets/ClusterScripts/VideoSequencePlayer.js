@@ -1,0 +1,45 @@
+// ClusterScript（Scriptable Item）
+// SubNode 名は Unity 階層のオブジェクト名に合わせてください
+const nodeNames = ["VP1", "VP2", "VP3"];     // VideoPlayer を持つオブジェクト
+const lengthsSec = [555, 555, 555];          // 各クリップの尺（秒）
+const initialBufferSec = 10;                 // 初回バッファ（URLソースなら大きめに）
+
+let vps = [];
+let idx = 0;
+let t = 0;
+
+$.onStart(() => {                             // 初期化（onStart 公式あり）
+  vps = nodeNames
+    .map(name => $.subNode(name).getUnityComponent("VideoPlayer"))  // 取得（公式OK）
+    .filter(Boolean);
+
+  // 設定できる公開プロパティのみ触る（公式の VideoPlayer 可用プロパティ）
+  vps.forEach(vp => {
+    vp.unityProp.isLooping = false;
+    vp.unityProp.playOnAwake = false;
+    vp.unityProp.waitForFirstFrame = true;
+    // 必要に応じて：
+    // vp.unityProp.playbackSpeed = 1.0;
+    // vp.unityProp.skipOnDrop = true;
+  });
+
+  idx = 0;
+  t = -initialBufferSec;                      // 初回はバッファを待つ
+  playCurrent();
+});
+
+function playCurrent() {
+  vps.forEach((c, i) => { if (i !== idx) c.stop(); });  // 他は停止（公式の stop）
+  const cur = vps[idx];
+  if (cur) cur.play();                                  // 再生（公式の play）
+}
+
+$.onUpdate((dt) => {                          // 毎フレーム（公式の onUpdate）
+  t += dt;                                    // dt は秒
+  const len = lengthsSec[idx] ?? 0;
+  if (t >= len) {
+    t = 0;
+    idx = (idx + 1) % vps.length;             // 次へ（最後まで行ったら先頭へ）
+    playCurrent();
+  }
+});
